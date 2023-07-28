@@ -3,7 +3,6 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: aliceblue;
 }
 
 .logo {
@@ -54,7 +53,7 @@
 
 .text-description{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .card-hover{
@@ -62,5 +61,91 @@
 }
 
 .card-hover:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
+
+.poke-type{
+  color: whitesmoke;
+  border-radius: 3%;
+  font-size: small;
+  width: 100%;
+}
+
+.grass{
+  background-color: #5ced77;
+}
+
+.fire{
+  background-color: #e82c39;
+}
+
+.water{
+  background-color: #1d78e0;
+}
+.electric{
+  background-color: #d6e01d;
+
+}
+
+.normal{
+  background-color: #a8a878;
+}
+
+.dark{
+  background-color: #333634;
+}
+
+.flying{
+  background-color: #a890f0;
+}
+.poison{
+  background-color: #a040a0;
+}
+.ground{
+  background-color: #E5B660;
+}
+.rock{
+  background-color: #A89D63;
+}
+.bug{
+  background-color: #97AB3E;
+}
+.ghost{
+   background-color: #826F96;
+}
+.steel{
+  background-color: #8CB4BD;
+}
+.psychic{
+  background-color: #F46A92;
+}
+.ice{
+  background-color: #71DBD3;
+}
+.dragon{
+  background-color: #5C64AF;
+}
+.fairy{
+  background-color: #F67EAB;
+}
+.fighting{
+  background-color: #F96663;
+}
+
+.pokeball-bg{
+  background-image: url("https://getwallpapers.com/wallpaper/full/1/7/0/1100770-pokeball-background-2000x1991-meizu.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
